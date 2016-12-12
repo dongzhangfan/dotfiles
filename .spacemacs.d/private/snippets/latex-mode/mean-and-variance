@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: mean and variance
+# key: mnv
+# --
+\$$1 \pm $2\$$0

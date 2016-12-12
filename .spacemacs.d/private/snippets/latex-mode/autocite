@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: autocite \autocite
+# key: ct
+# --
+\autocite{${1:label$(unless yas/modified-p (car (reftex-citation 't)))}}$0

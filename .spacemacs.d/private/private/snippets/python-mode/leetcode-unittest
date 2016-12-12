@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: unittest for leetcode
+# key: lcut
+# --
+import unittest
+import utils
+
+class TestSolution(unittest.TestCase):
+
+    def setUp(self):
+        self.sol = Solution()
+
+    @utils.expand(
+       $0
+    )
+    def testInput1(self, data, expected):
+        pass
+
+unittest.main(verbosity=2)
