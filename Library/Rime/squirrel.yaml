@@ -1,0 +1,42 @@
+app_options:
+  com.alfredapp.Alfred:
+    ascii_mode: true
+  com.apple.Terminal:
+    ascii_mode: true
+    no_inline: true
+  com.blacktree.Quicksilver:
+    ascii_mode: true
+  com.googlecode.iterm2:
+    ascii_mode: true
+  "com.runningwithcrayons.Alfred-2":
+    ascii_mode: true
+  org.vim.MacVim:
+    ascii_mode: true
+    no_inline: true
+chord_duration: 0.1
+config_version: 0.22.custom.348848192
+customization: 348848192
+preset_color_schemes:
+  apathy:
+    author: "LIANG Hai "
+    back_color: 0xFFFFFF
+    border_height: 0
+    border_width: 0
+    candidate_format: "%c %@ "
+    comment_text_color: 0x999999
+    corner_radius: 5
+    font_face: "PingFangSC-Light"
+    font_point: 14
+    hilited_candidate_back_color: 0xFFF0E4
+    hilited_candidate_text_color: 0xEE6E00
+    horizontal: true
+    inline_preedit: true
+    label_font_face: "PingFangSC-Light"
+    label_font_point: 12
+    name: "冷漠 / Apathy"
+    text_color: 0x424242
+show_notifications_via_notification_center: false
+show_notifications_when: appropriate
+style:
+  color_scheme: apathy
+us_keyboard_layout: false
