@@ -1,3 +1,3 @@
 function ec
-	emacsclient -q $argv[1] 
+  emacsclient --quiet --no-wait $argv[1]
 end

@@ -1,10 +1,10 @@
+edc/bass
 0rax/fish-bd
+khs1994-docker/docker-fish-completion
 fisherman/getopts
-fisherman/git_util
-fisherman/host_info
-fisherman/humanize_duration
-fisherman/last_job_id
-fisherman/pwd_info
-fisherman/pwd_is_home
-fisherman/simple
+evanlucas/fish-kubectl-completions
+rafaelrinaldi/pure
+fisherman/pyenv
+fisherman/rbenv
+oh-my-fish/plugin-thefuck
 fisherman/z

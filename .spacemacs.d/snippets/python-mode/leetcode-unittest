@@ -11,9 +11,9 @@ class TestSolution(unittest.TestCase):
         self.sol = Solution()
 
     @utils.expand(
-       $0
+        $0
     )
-    def testInput1(self, data, expected):
-        pass
+    def test_template(self, args, expected):
+        self.assertEqual(self.sol.fn(*args), expected)
 
 unittest.main(verbosity=2)
